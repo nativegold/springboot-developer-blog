@@ -12,7 +12,7 @@ import java.util.List;
 @Controller
 public class ExampleController {
     @GetMapping("/thymeleaf/example")
-    public String thymeleafExample(Model model) {
+    public String thymeleafExample(Model model) {   // 타임리프 연습용
         Person examplePerson = new Person();
         examplePerson.setId(1L);
         examplePerson.setName("홍길동");

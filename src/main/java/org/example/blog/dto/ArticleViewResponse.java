@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @Getter
-public class ArticleViewResponse {
+public class ArticleViewResponse {      // 응답에 사용할 게시글 DTO
     private Long id;
     private String title;
     private String content;

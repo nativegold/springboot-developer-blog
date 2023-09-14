@@ -27,7 +27,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-class BlogApiControllerTest {
+class BlogApiControllerTest {   // API 컨트롤러 테스트
     @Autowired
     protected MockMvc mockMvc;
 
